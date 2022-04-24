@@ -1,0 +1,82 @@
+$fontPath: "../assets/fonts/";
+
+@font-face {
+	font-family: "Poppins";
+	font-weight: 100;
+	src:
+		url($fontPath + "poppins-thin.woff2") format("x-woff2"),
+		url($fontPath + "poppins-thin.woff") format("woff"),
+		url($fontPath + "poppins-thin.ttf") format("ttf");
+}
+
+@font-face {
+	font-family: "Poppins";
+	font-weight: 200;
+	src:
+		url($fontPath + "poppins-extralight.woff2") format("x-woff2"),
+		url($fontPath + "poppins-extralight.woff") format("woff"),
+		url($fontPath + "poppins-extralight.ttf") format("ttf");
+}
+
+@font-face {
+	font-family: "Poppins";
+	font-weight: 300;
+	src:
+		url($fontPath + "poppins-light.woff2") format("x-woff2"),
+		url($fontPath + "poppins-light.woff") format("woff"),
+		url($fontPath + "poppins-light.ttf") format("ttf");
+}
+
+@font-face {
+	font-family: "Poppins";
+	font-weight: 400;
+	src:
+		url($fontPath + "poppins-regular.woff2") format("x-woff2"),
+		url($fontPath + "poppins-regular.woff") format("woff"),
+		url($fontPath + "poppins-regular.ttf") format("ttf");
+}
+
+@font-face {
+	font-family: "Poppins";
+	font-weight: 500;
+	src:
+		url($fontPath + "poppins-medium.woff2") format("x-woff2"),
+		url($fontPath + "poppins-medium.woff") format("woff"),
+		url($fontPath + "poppins-medium.ttf") format("ttf");
+}
+
+@font-face {
+	font-family: "Poppins";
+	font-weight: 600;
+	src:
+		url($fontPath + "poppins-semibold.woff2") format("x-woff2"),
+		url($fontPath + "poppins-semibold.woff") format("woff"),
+		url($fontPath + "poppins-semibold.ttf") format("ttf");
+}
+
+@font-face {
+	font-family: "Poppins";
+	font-weight: 700;
+	src:
+		url($fontPath + "poppins-bold.woff2") format("x-woff2"),
+		url($fontPath + "poppins-bold.woff") format("woff"),
+		url($fontPath + "poppins-bold.ttf") format("ttf");
+}
+
+@font-face {
+	font-family: "Poppins";
+	font-weight: 800;
+	src:
+		url($fontPath + "poppins-extrabold.woff2") format("x-woff2"),
+		url($fontPath + "poppins-extrabold.woff") format("woff"),
+		url($fontPath + "poppins-extrabold.ttf") format("ttf");
+}
+
+@font-face {
+	font-family: "Poppins";
+	font-weight: 900;
+	src:
+		url($fontPath + "poppins-black.woff2") format("x-woff2"),
+		url($fontPath + "poppins-black.woff") format("woff"),
+		url($fontPath + "poppins-black.ttf") format("ttf");
+}

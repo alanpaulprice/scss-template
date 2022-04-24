@@ -1,0 +1,47 @@
+//======================================================================================================================
+//========== MEDIA QUERIES
+//======================================================================================================================
+
+@mixin media($breakpoint) {
+	@if $breakpoint == xs {
+		@media screen and (min-width: 30rem) {
+			@content;
+		}
+	}
+
+	@if $breakpoint == sm {
+		@media screen and (min-width: 40rem) {
+			@content;
+		}
+	}
+
+	@if $breakpoint == md {
+		@media screen and (min-width: 50rem) {
+			@content;
+		}
+	}
+
+	@if $breakpoint == lg {
+		@media screen and (min-width: 60em) {
+			@content;
+		}
+	}
+
+	@if $breakpoint == xl {
+		@media screen and (min-width: 70em) {
+			@content;
+		}
+	}
+
+	@if $breakpoint == xxl {
+		@media screen and (min-width: 80em) {
+			@content;
+		}
+	}
+
+	@if $breakpoint == hov {
+		@media screen and (hover: hover) {
+			@content;
+		}
+	}
+}

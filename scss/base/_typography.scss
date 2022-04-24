@@ -1,0 +1,70 @@
+h1,
+h2,
+h3,
+h4,
+h5
+{
+    width: 100%;
+    font-weight: 500;
+}
+
+h1
+{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    line-height: 1.3em;
+
+    @include media(sm)
+    {
+        font-size: 3rem;
+    }
+}
+
+h2
+{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 1.25em;
+
+    @include media(sm)
+    {
+        font-size: 2.5rem;
+    }
+}
+
+h3
+{
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    line-height: 1.25em;
+
+    @include media(sm)
+    {
+        font-size: 2rem;
+    }
+}
+
+p,
+li
+{
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5em;
+    max-width: 75ch;
+
+    @include media(sm)
+    {
+        font-size: 1.5rem;
+    }
+}
+
+button
+{
+    font-size: .75rem;
+    font-weight: 500;
+
+    @include media(sm)
+    {
+        font-size: .75rem;
+    }
+}
